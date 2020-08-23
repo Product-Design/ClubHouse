@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="[&quot;zh-CN&quot;,&quot;ja&quot;,&quot;en&quot;]" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EdTechとは | 智桥科技（EdTech）</title><meta name="description" content="EdTechとは、教育（Education）×テクノロジー（Technology）を組み合わせた造語で、教育領域にイノベーションを起こすビジネス、サービス、スタートアップ企業などの総称です。 「100年前の教師が現代にやってきたとしても何ら問題なく授業を行えるだろう」と揶揄されるように、教育現場は良くも悪くも変化のないいわば“聖域”としてしばしば取り上げられてきました。しかしながら、あらゆる分野で"><meta name="keywords" content="文摘"><meta name="author" content="智桥科技,info@sb-hrms.com"><meta name="copyright" content="智桥科技"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://sb-hitech.github.io/assets/img/favicon.jpg"><link rel="canonical" href="https://sb-talents.github.io/SB-EdTech/ja/EdTech%E5%9F%BA%E7%A1%80/EdTech%E6%A6%82%E8%BF%B0/EdTech/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="EdTechとは"><meta property="og:url" content="https://sb-talents.github.io/SB-EdTech/ja/EdTech%E5%9F%BA%E7%A1%80/EdTech%E6%A6%82%E8%BF%B0/EdTech/"><meta property="og:site_name" content="智桥科技（EdTech）"><meta property="og:description" content="EdTechとは、教育（Education）×テクノロジー（Technology）を組み合わせた造語で、教育領域にイノベーションを起こすビジネス、サービス、スタートアップ企業などの総称です。 「100年前の教師が現代にやってきたとしても何ら問題なく授業を行えるだろう」と揶揄されるように、教育現場は良くも悪くも変化のないいわば“聖域”としてしばしば取り上げられてきました。しかしながら、あらゆる分野で"><meta property="og:image" content="https://sb-hitech.github.io/assets/img/top/6.jpg"><meta property="article:published_time" content="2018-08-13T10:18:58.000Z"><meta property="article:modified_time" content="2020-07-18T10:58:58.000Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/SB-EdTech/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/SB-EdTech/',
+  hexoversion: '4.2.1',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: {"limitCount":100,"languages":{"author":"作者: 智桥科技","link":"链接: ","source":"来源: 智桥科技（EdTech）","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isSidebar: false,
+  postUpdate: '2020-07-18 18:58:58'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.1"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="https://sb-hitech.github.io/assets/img/Portraits.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/SB-EdTech/archives/"><div class="headline">文章</div><div class="length_num">1</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/SB-EdTech/tags/"><div class="headline">标签</div><div class="length_num">1</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/SB-EdTech/categories/"><div class="headline">分类</div><div class="length_num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/SB-EdTech/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> About</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-HITECH.github.io/about" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> About us</span></a></li><li><a class="site-page" href="https://sunshubin.github.io/" target="_blank" rel="noopener"><i class="fa-fw fas fa-heart"></i><span> Sun Shubin</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/news-press/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> News</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/seminar/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Seminar</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/privacy-policy/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Privacy-policy</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/business-policy/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Business-policy</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/copyright-policy/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Copyright-policy</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> HiTech</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-HITECH.github.io/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> SB-HiTech</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/SB-HRTech/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> HRTech</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/SB-EdTech/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> EdTech</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/SB-IDSS/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> IDSS</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Service</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-Service.github.io/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> SB-Service</span></a></li><li><a class="site-page" href="http://www.SB-HRBP.com/challenge/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Question-bank</span></a></li><li><a class="site-page" href="http://www.sb-hrms.com/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> HRMS-Demo</span></a></li><li><a class="site-page" href="http://www.sb-hrbp.com/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> HRBP-Demo</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Talents</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-Talents.github.io/"><i class="fa-fw fas fa-link"></i><span> SB-Talents</span></a></li><li><a class="site-page" href="https://SB-Talents.github.io/SBT-FOSS/"><i class="fa-fw fas fa-link"></i><span> FOSS</span></a></li><li><a class="site-page" href="https://SB-Talents.github.io/SBT-Professional-competence/"><i class="fa-fw fas fa-link"></i><span> Professional-competence</span></a></li><li><a class="site-page" href="https://SB-Talents.github.io/SBT-Business-Competence/"><i class="fa-fw fas fa-link"></i><span> Business-Competence</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Plaza</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-Plaza.github.io/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> SB-Plaza</span></a></li><li><a class="site-page" href="https://SB-Plaza.github.io/SBT-Recruit/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Recruit</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Resources</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/SB-EdTech/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/SB-EdTech/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li><li><a class="site-page" href="/SB-EdTech/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/SB-EdTech/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/SB-EdTech/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/SB-EdTech/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://sb-hitech.github.io/assets/img/top/6.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/SB-EdTech/">智桥科技（EdTech）</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/SB-EdTech/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> About</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-HITECH.github.io/about" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> About us</span></a></li><li><a class="site-page" href="https://sunshubin.github.io/" target="_blank" rel="noopener"><i class="fa-fw fas fa-heart"></i><span> Sun Shubin</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/news-press/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> News</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/seminar/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Seminar</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/privacy-policy/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Privacy-policy</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/business-policy/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Business-policy</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/about/copyright-policy/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Copyright-policy</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> HiTech</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-HITECH.github.io/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> SB-HiTech</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/SB-HRTech/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> HRTech</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/SB-EdTech/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> EdTech</span></a></li><li><a class="site-page" href="https://SB-HITECH.github.io/SB-IDSS/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> IDSS</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Service</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-Service.github.io/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> SB-Service</span></a></li><li><a class="site-page" href="http://www.SB-HRBP.com/challenge/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Question-bank</span></a></li><li><a class="site-page" href="http://www.sb-hrms.com/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> HRMS-Demo</span></a></li><li><a class="site-page" href="http://www.sb-hrbp.com/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> HRBP-Demo</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Talents</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-Talents.github.io/"><i class="fa-fw fas fa-link"></i><span> SB-Talents</span></a></li><li><a class="site-page" href="https://SB-Talents.github.io/SBT-FOSS/"><i class="fa-fw fas fa-link"></i><span> FOSS</span></a></li><li><a class="site-page" href="https://SB-Talents.github.io/SBT-Professional-competence/"><i class="fa-fw fas fa-link"></i><span> Professional-competence</span></a></li><li><a class="site-page" href="https://SB-Talents.github.io/SBT-Business-Competence/"><i class="fa-fw fas fa-link"></i><span> Business-Competence</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Plaza</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://SB-Plaza.github.io/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> SB-Plaza</span></a></li><li><a class="site-page" href="https://SB-Plaza.github.io/SBT-Recruit/" target="_blank" rel="noopener"><i class="fa-fw fas fa-link"></i><span> Recruit</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Resources</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/SB-EdTech/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/SB-EdTech/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li><li><a class="site-page" href="/SB-EdTech/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/SB-EdTech/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/SB-EdTech/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/SB-EdTech/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">EdTechとは</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2018-08-13T10:18:58.000Z" title="发表于 2018-08-13 18:18:58">2018-08-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-07-18T10:58:58.000Z" title="更新于 2020-07-18 18:58:58">2020-07-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/SB-EdTech/categories/EdTech%E5%9F%BA%E7%A1%80/">EdTech基础</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/SB-EdTech/categories/EdTech%E5%9F%BA%E7%A1%80/EdTech%E6%A6%82%E8%BF%B0/">EdTech概述</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><p>EdTechとは、教育（Education）×テクノロジー（Technology）を組み合わせた造語で、教育領域にイノベーションを起こすビジネス、サービス、スタートアップ企業などの総称です。</p>
+<p>「100年前の教師が現代にやってきたとしても何ら問題なく授業を行えるだろう」と揶揄されるように、教育現場は良くも悪くも変化のないいわば“聖域”としてしばしば取り上げられてきました。しかしながら、あらゆる分野でテクノロジーが活用されることで私たちの生活が変わり、その恩恵を享受するようになった今、教育分野もまたテクノロジーを取り入れようとしています。</p>
+<p>ここで指すテクノロジーとは、AIやVRなどの先端技術はもちろんですが、すでに一般的となっている汎用技術（アプリやソフト、デバイス）も含みます。こうした技術を活用し、これまで当たり前と思っていた仕組みや制度、考え方までも含め、根底からひっくり返してしまうようなイノベーションの可能性が期待されています。</p>
+<p>EdTechの市場規模</p>
+<p>世界的に注目されているEdTech。発祥の地アメリカはもちろんですが、それ以上にEdTechに力を入れているのが中国です。中国のEdTechスタートアップ投資額は今やアメリカを抜き、20.3億ドル（約2,030億円）に達するといわれています。</p>
+<p>日本においても、EdTechはまだまだ黎明期の域を出ませんが、市場規模は確実に拡大しています。野村総合研究所（NRI）は、2016年度におけるEdTech市場規模を約1,700億円と推計しており、2023年には約3,000億円に達すると予測しています。</p>
+<p>日本でEdTechが注目されるきっかけとなったのは、文部科学省が2020年までにすべての小・中学校で一人一台のタブレット端末の導入を目指すという指針を発表したことにあります。さらに、2018年1月には経済産業省が「『未来の教室』とEdTech研究会」を立ち上げるなど、国を挙げてEdTechが推進されています。こうした動きは公教育の現場に留まらず、企業研修、リカレント教育、個人の学びも含めたムーブメントになりつつあります。</p>
+<p>アダプティブラーニング</p>
+<p>学習者一人ひとりに最適化されたレベル・内容・進度での学習を実現するのが「アダプティブラーニング」です。<br>個々の過去の回答や学習履歴を蓄積・分析することで、思考パターンや弱点を見抜き、一人ひとりに合ったオーダーメイドの学習内容を提示してくれます。</p>
+<p>個々に合わせた教育という考え方自体は従来の教育現場にもありましたが、成績別にクラス分けをするなど限定的な取り組みに留まっていました。現代のアダプティブラーニングは、ICT技術やソーシャルメディアなどを活用することで、学習内容・レベルの最適化を行えるのが特徴で、これまで理想とされてきた教育の姿として注目されています。</p>
+<p>学校教育や教育サービスだけでなく、「社員の意欲を高めたい」「仕事が忙しくなかなか教育の時間が取れない」「効率よく教育研修ができる環境を作りたい」といった課題を抱える企業の人材育成領域での活用も期待されています。</p>
+<p>VRを使った疑似体験学習</p>
+<p>VRとはVirtual<br>Reality（バーチャルリアリティ）の略で、日本では仮想現実、人工現実感とも呼ばれます。</p>
+<p>VRの最大の特長は「仮想空間の中でまるで現実のような疑似体験ができる」点です。専用機器を装着することで、臨場感のある体験、現実世界では再現しづらい体験を現実と錯覚するような没入感の中でいつでも、どこでも、繰り返し体験することが可能です。</p>
+<p>このVR技術を人材育成や学校教育に活用する動きが注目されています。</p>
+<p>学習管理の効率化</p>
+<p>教育の効果を最大化させるためには、従来の教育プログラムを単にデジタル化しただけでは不十分。学習状況を把握し、効率よく管理、運営するための仕組みやシステムが必要となります。ここもEdTechで注目されている分野です。</p>
+<p>教員専用の学習管理ツールや教員・生徒・保護者がつながるSNS型ツールなどさまざまなものがありますが、この分野で先行しているのがLMS(Learning<br>Management System)と呼ばれる学習管理システムです。</p>
+<p>LMSとはeラーニングを実施する際のベースとなるシステムで、インターネット上で教材を配信・回収したり、学習者が学習した履歴を管理したりするためのプラットフォームとなります。<br>多くのLMSは受講者がログインして学習する受講機能と、教員や管理者が管理・運営を行う管理機能から成ります。生徒一人ひとりの進捗状況を一元管理する概念は、EdTechでも重要な役割を果たすと考えられます。</p>
+<p>詳しくは次項「EdTechとeラーニング」でも解説します。</p>
+<p>EdTechとeラーニング～eラーニングが再注目される理由～</p>
+<p>EdTechが注目されるよりずっと前に、教育領域でICT活用がスタートしていた分野があります。それが前項でも触れた「eラーニング」です。</p>
+<p>学校や塾、企業研修等において、特定の場所に集合し教育者が直接講義をおこなう〝リアルな教育〝に対し、パソコンやタブレット、スマートフォン等を活用しインターネットを介して学習する「eラーニング」。時間や場所にとらわれずに、いつでも・どこでも・何度でも教育を受けることを実現した学習スタイルです。</p>
+<p>eラーニングの歴史</p>
+<p>eラーニングの歴史<br>国内における普及は、今から約20年前、eラーニング元年といわれた2000年前後に遡ります。</p>
+<p>大企業や一部の先進的な企業が社内研修への導入を始めました。<br>最初は就業規則や業務マニュアルなどを文字で伝達することから始まりましたが、技術の発展とともに映像や音声を使ったより効果的な教材が充実していきます。<br>集合研修との組み合わせ（ブレンデッドラーニング）も一般的となり、人材育成の領域でeラーニングは高いコスト削減と研修効果の向上を実現しました。</p>
+<p>さらに、大学をはじめとする教育機関、塾や資格取得スクールといったさまざまな教育サービスでも幅広く活用されていきます。</p>
+<p>転機と学びの変化</p>
+<p>転機と学びの変化<br>そんななか、大きな変化が訪れます。スマートフォンやタブレットの爆発的な普及です。</p>
+<p>この変化は企業内研修にも大きな影響をもたらしました。</p>
+<p>これまでは机の上に置かれたパソコンで学習する必要がありましたが、スマートフォンやタブレットは手元で学習が可能なため、従来不可能だった店舗教育や現場教育――主には接遇マナー教育、業務マニュアルのリアルタイム共有、新人スタッフ教育など――がパソコンの置かれた研修ルームではなく「働く現場」で実現可能となりました。</p>
+<p>新しいステージへ</p>
+<p>新しいステージへ<br>こうした変化を経て、eラーニングは、従来の“知識学習”の域から、現場での経験を通してより印象的かつ効率的に学習を進め、業務成果に直結した学びの環境を提供する“経験学習”の領域にも広がりつつあります。そして今、EdTechが注目されるようになったことで、同じ教育×テクノロジーの領域で経験のあるeラーニングが新たなステージを迎えようとしています。</p>
+<p>これまでeラーニング業界が長年にわたって培ってきた、学習管理の考え方やシステム（LMS）、コンテンツ（オンデマンド、ライブ配信）に関するノウハウ、教育効果を高め学びを継続させるための知見などを生かし、eラーニングから進化したEdTechを実現していくことが期待されています。</p>
+<br>
+
+<center>
+<b>加入万人职场社群，为自己的职业生涯保驾护航！</b>
+
+<br>
+
+ <img src= "/SB-EdTech/img/loading.gif" data-lazy-src="https://SB-HITECH.github.io/assets/img/dingding/dingding-circle-learning.jpg" width = "350" height = "380" alt="万人知识共享社区" align=center />
+
+</center></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:info@sb-hrms.com">智桥科技</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://sb-talents.github.io/SB-EdTech/ja/EdTech%E5%9F%BA%E7%A1%80/EdTech%E6%A6%82%E8%BF%B0/EdTech/">https://sb-talents.github.io/SB-EdTech/ja/EdTech基础/EdTech概述/EdTech/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://sb-hitech.github.io/about/copyright-policy/" target="_blank">Copyright © 2018 SB-HITECH</a> 许可协议。转载请注明来自 <a href="https://SB-Talents.github.io/SB-EdTech" target="_blank">智桥科技（EdTech）</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/SB-EdTech/tags/%E6%96%87%E6%91%98/">文摘</a></div><div class="post_share"><div class="social-share" data-image="https://sb-hitech.github.io/assets/img/top/6.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://sb-hitech.github.io/assets/img/WeChatPay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://sb-hitech.github.io/assets/img/WeChatPay.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"></nav></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By <a href="http://www.sb-hrms.com/" title="SB-HiTech Co., Ltd"  target="_blank">SB-HiTech Co., Ltd</a></div><div class="framework-info"><span>框架 </span><a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/SB-HITECH/Hexo-Theme" target="_blank" rel="noopener">SB-HiTech</a></div><div class="footer_custom_text"><a href="mailto:info@sb-hrbp.com">不良信息举报 Complaint Center：info@sb-hrbp.com</A></div><div class="icp"><a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener"><img class="icp-icon" src="/SB-EdTech/img/icp.png"/><span>工业和信息化部备案管理系统网站 辽ICP备19010670号</span></a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/SB-EdTech/js/utils.js"></script><script src="/SB-EdTech/js/main.js"></script><script src="/SB-EdTech/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div></body></html>
