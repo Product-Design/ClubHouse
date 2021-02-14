@@ -1,3 +1,3 @@
-# SB-HITECH   EdTech
+# ClubHouse产品设计研究
 
-https://sb-hitech.github.io/SB-EdTech/
+https://product-design.github.io/ClubHouse/
